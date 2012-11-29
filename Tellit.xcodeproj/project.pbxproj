@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		717467201637A31A00F1E19C /* WordList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7174671F1637A31A00F1E19C /* WordList.plist */; };
+		71A855761636136A00D1AD7B /* icon_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A855751636136A00D1AD7B /* icon_57_57.png */; };
+		71A855781636136F00D1AD7B /* icon_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A855771636136F00D1AD7B /* icon_114_114.png */; };
+		71A8557B163613CB00D1AD7B /* egg_shell_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A85579163613CB00D1AD7B /* egg_shell_@2X.png */; };
+		71A8557C163613CB00D1AD7B /* egg_shell.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A8557A163613CB00D1AD7B /* egg_shell.png */; };
+		71A8557F1636141B00D1AD7B /* FingerPaint-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71A8557E1636141B00D1AD7B /* FingerPaint-Regular.ttf */; };
+		71A85584163618FE00D1AD7B /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A85583163618FE00D1AD7B /* BButton.m */; };
+		71A855B3163655DB00D1AD7B /* TLPListReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A855B2163655DB00D1AD7B /* TLPListReader.m */; };
+		71A855B816365EF600D1AD7B /* TLWordList.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A855B716365EF500D1AD7B /* TLWordList.m */; };
+		71A855BB1636602D00D1AD7B /* NSArray+Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A855BA1636602D00D1AD7B /* NSArray+Sample.m */; };
+		71A855C31636637300D1AD7B /* TLWordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A855C11636637300D1AD7B /* TLWordListViewController.m */; };
+		71A855C41636637300D1AD7B /* TLWordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A855C21636637300D1AD7B /* TLWordListViewController.xib */; };
 		71C450EE162FB1A600C31B7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C450ED162FB1A600C31B7F /* UIKit.framework */; };
 		71C450F0162FB1A600C31B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C450EF162FB1A600C31B7F /* Foundation.framework */; };
 		71C450F2162FB1A600C31B7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C450F1162FB1A600C31B7F /* CoreGraphics.framework */; };
 		71C450F4162FB1A600C31B7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C450F3162FB1A600C31B7F /* CoreData.framework */; };
 		71C450FA162FB1A600C31B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C450F8162FB1A600C31B7F /* InfoPlist.strings */; };
 		71C450FC162FB1A600C31B7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C450FB162FB1A600C31B7F /* main.m */; };
-		71C45100162FB1A600C31B7F /* AIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C450FF162FB1A600C31B7F /* AIAppDelegate.m */; };
+		71C45100162FB1A600C31B7F /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C450FF162FB1A600C31B7F /* TLAppDelegate.m */; };
 		71C45102162FB1A600C31B7F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C45101162FB1A600C31B7F /* Default.png */; };
 		71C45104162FB1A600C31B7F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C45103162FB1A600C31B7F /* Default@2x.png */; };
 		71C45106162FB1A600C31B7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C45105162FB1A600C31B7F /* Default-568h@2x.png */; };
@@ -24,6 +36,8 @@
 		71C45114162FB1A600C31B7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C450F3162FB1A600C31B7F /* CoreData.framework */; };
 		71C4511C162FB1A600C31B7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C4511A162FB1A600C31B7F /* InfoPlist.strings */; };
 		71C4511F162FB1A600C31B7F /* TellitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C4511E162FB1A600C31B7F /* TellitTests.m */; };
+		71FC8D9F163A5A26001B82CF /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FC8D9E163A5A26001B82CF /* icon_144.png */; };
+		71FC8DA1163A5A28001B82CF /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 71FC8DA0163A5A28001B82CF /* icon_72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7174671F1637A31A00F1E19C /* WordList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = WordList.plist; path = ../WordList.plist; sourceTree = "<group>"; };
+		71A855751636136A00D1AD7B /* icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57_57.png; path = ../icon_57_57.png; sourceTree = "<group>"; };
+		71A855771636136F00D1AD7B /* icon_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114_114.png; path = ../icon_114_114.png; sourceTree = "<group>"; };
+		71A85579163613CB00D1AD7B /* egg_shell_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "egg_shell_@2X.png"; path = "../egg_shell_@2X.png"; sourceTree = "<group>"; };
+		71A8557A163613CB00D1AD7B /* egg_shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = egg_shell.png; path = ../egg_shell.png; sourceTree = "<group>"; };
+		71A8557E1636141B00D1AD7B /* FingerPaint-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FingerPaint-Regular.ttf"; sourceTree = "<group>"; };
+		71A85582163618FE00D1AD7B /* BButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BButton.h; path = BButton/BButton.h; sourceTree = "<group>"; };
+		71A85583163618FE00D1AD7B /* BButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BButton.m; path = BButton/BButton.m; sourceTree = "<group>"; };
+		71A855B1163655DB00D1AD7B /* TLPListReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLPListReader.h; sourceTree = "<group>"; };
+		71A855B2163655DB00D1AD7B /* TLPListReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLPListReader.m; sourceTree = "<group>"; };
+		71A855B4163656C500D1AD7B /* TLConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLConstantsAndMacros.h; sourceTree = "<group>"; };
+		71A855B616365EF500D1AD7B /* TLWordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLWordList.h; sourceTree = "<group>"; };
+		71A855B716365EF500D1AD7B /* TLWordList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLWordList.m; sourceTree = "<group>"; };
+		71A855B91636602D00D1AD7B /* NSArray+Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sample.h"; sourceTree = "<group>"; };
+		71A855BA1636602D00D1AD7B /* NSArray+Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sample.m"; sourceTree = "<group>"; };
+		71A855C01636637300D1AD7B /* TLWordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLWordListViewController.h; sourceTree = "<group>"; };
+		71A855C11636637300D1AD7B /* TLWordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLWordListViewController.m; sourceTree = "<group>"; };
+		71A855C21636637300D1AD7B /* TLWordListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TLWordListViewController.xib; sourceTree = "<group>"; };
 		71C450E9162FB1A500C31B7F /* Tellit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tellit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C450ED162FB1A600C31B7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71C450EF162FB1A600C31B7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,8 +78,8 @@
 		71C450F9162FB1A600C31B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71C450FB162FB1A600C31B7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71C450FD162FB1A600C31B7F /* Tellit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tellit-Prefix.pch"; sourceTree = "<group>"; };
-		71C450FE162FB1A600C31B7F /* AIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAppDelegate.h; sourceTree = "<group>"; };
-		71C450FF162FB1A600C31B7F /* AIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAppDelegate.m; sourceTree = "<group>"; };
+		71C450FE162FB1A600C31B7F /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		71C450FF162FB1A600C31B7F /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
 		71C45101162FB1A600C31B7F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		71C45103162FB1A600C31B7F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		71C45105162FB1A600C31B7F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -58,6 +90,8 @@
 		71C4511B162FB1A600C31B7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71C4511D162FB1A600C31B7F /* TellitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TellitTests.h; sourceTree = "<group>"; };
 		71C4511E162FB1A600C31B7F /* TellitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TellitTests.m; sourceTree = "<group>"; };
+		71FC8D9E163A5A26001B82CF /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_144.png; path = ../icon_144.png; sourceTree = "<group>"; };
+		71FC8DA0163A5A28001B82CF /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_72.png; path = ../icon_72.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +120,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71A8557D163613CF00D1AD7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71FC8DA0163A5A28001B82CF /* icon_72.png */,
+				71FC8D9E163A5A26001B82CF /* icon_144.png */,
+				7174671F1637A31A00F1E19C /* WordList.plist */,
+				71A8557E1636141B00D1AD7B /* FingerPaint-Regular.ttf */,
+				71A855771636136F00D1AD7B /* icon_114_114.png */,
+				71A85579163613CB00D1AD7B /* egg_shell_@2X.png */,
+				71A8557A163613CB00D1AD7B /* egg_shell.png */,
+				71A855751636136A00D1AD7B /* icon_57_57.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		71A85580163618BB00D1AD7B /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				71A85582163618FE00D1AD7B /* BButton.h */,
+				71A85583163618FE00D1AD7B /* BButton.m */,
+			);
+			name = BButton;
+			sourceTree = "<group>";
+		};
+		71A855BC1636603300D1AD7B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				71A855B91636602D00D1AD7B /* NSArray+Sample.h */,
+				71A855BA1636602D00D1AD7B /* NSArray+Sample.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		71C450DE162FB1A500C31B7F = {
 			isa = PBXGroup;
 			children = (
@@ -120,8 +187,18 @@
 		71C450F5162FB1A600C31B7F /* Tellit */ = {
 			isa = PBXGroup;
 			children = (
-				71C450FE162FB1A600C31B7F /* AIAppDelegate.h */,
-				71C450FF162FB1A600C31B7F /* AIAppDelegate.m */,
+				71A855BC1636603300D1AD7B /* Categories */,
+				71A855B616365EF500D1AD7B /* TLWordList.h */,
+				71A855C01636637300D1AD7B /* TLWordListViewController.h */,
+				71A855C11636637300D1AD7B /* TLWordListViewController.m */,
+				71A855C21636637300D1AD7B /* TLWordListViewController.xib */,
+				71A855B716365EF500D1AD7B /* TLWordList.m */,
+				71A855B1163655DB00D1AD7B /* TLPListReader.h */,
+				71A855B2163655DB00D1AD7B /* TLPListReader.m */,
+				71A85580163618BB00D1AD7B /* BButton */,
+				71A8557D163613CF00D1AD7B /* Resources */,
+				71C450FE162FB1A600C31B7F /* TLAppDelegate.h */,
+				71C450FF162FB1A600C31B7F /* TLAppDelegate.m */,
 				71C45107162FB1A600C31B7F /* Tellit.xcdatamodeld */,
 				71C450F6162FB1A600C31B7F /* Supporting Files */,
 			);
@@ -138,6 +215,7 @@
 				71C45101162FB1A600C31B7F /* Default.png */,
 				71C45103162FB1A600C31B7F /* Default@2x.png */,
 				71C45105162FB1A600C31B7F /* Default-568h@2x.png */,
+				71A855B4163656C500D1AD7B /* TLConstantsAndMacros.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,6 +315,15 @@
 				71C45102162FB1A600C31B7F /* Default.png in Resources */,
 				71C45104162FB1A600C31B7F /* Default@2x.png in Resources */,
 				71C45106162FB1A600C31B7F /* Default-568h@2x.png in Resources */,
+				71A855761636136A00D1AD7B /* icon_57_57.png in Resources */,
+				71A855781636136F00D1AD7B /* icon_114_114.png in Resources */,
+				71A8557B163613CB00D1AD7B /* egg_shell_@2X.png in Resources */,
+				71A8557C163613CB00D1AD7B /* egg_shell.png in Resources */,
+				71A8557F1636141B00D1AD7B /* FingerPaint-Regular.ttf in Resources */,
+				71A855C41636637300D1AD7B /* TLWordListViewController.xib in Resources */,
+				717467201637A31A00F1E19C /* WordList.plist in Resources */,
+				71FC8D9F163A5A26001B82CF /* icon_144.png in Resources */,
+				71FC8DA1163A5A28001B82CF /* icon_72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C450FC162FB1A600C31B7F /* main.m in Sources */,
-				71C45100162FB1A600C31B7F /* AIAppDelegate.m in Sources */,
+				71C45100162FB1A600C31B7F /* TLAppDelegate.m in Sources */,
 				71C45109162FB1A600C31B7F /* Tellit.xcdatamodeld in Sources */,
+				71A85584163618FE00D1AD7B /* BButton.m in Sources */,
+				71A855B3163655DB00D1AD7B /* TLPListReader.m in Sources */,
+				71A855B816365EF600D1AD7B /* TLWordList.m in Sources */,
+				71A855BB1636602D00D1AD7B /* NSArray+Sample.m in Sources */,
+				71A855C31636637300D1AD7B /* TLWordListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,10 +459,16 @@
 		71C45123162FB1A600C31B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arun Israel (PY6RH8AEAP)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tellit/Tellit-Prefix.pch";
 				INFOPLIST_FILE = "Tellit/Tellit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5EBF3B70-349E-428C-A9D6-EEF52922A773";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,10 +476,16 @@
 		71C45124162FB1A600C31B7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Arun Israel";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tellit/Tellit-Prefix.pch";
 				INFOPLIST_FILE = "Tellit/Tellit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8633532F-EDC9-46BF-BB54-FFAC328026D9";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +543,7 @@
 				71C45124162FB1A600C31B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71C45125162FB1A600C31B7F /* Build configuration list for PBXNativeTarget "TellitTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +552,7 @@
 				71C45127162FB1A600C31B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

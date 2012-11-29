@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AIAppDelegate.h"
+#import "TLAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AIAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TLAppDelegate class]));
     }
 }

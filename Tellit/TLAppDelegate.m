@@ -6,9 +6,10 @@
 //  Copyright (c) 2012 Arun Israel. All rights reserved.
 //
 
-#import "AIAppDelegate.h"
+#import "TLAppDelegate.h"
+#import "TLWordListViewController.h"
 
-@implementation AIAppDelegate
+@implementation TLAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
@@ -16,9 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    TLWordListViewController *wordListVC = [[TLWordListViewController alloc] init];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+//    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = wordListVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -144,6 +147,24 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+#pragma mark - Shake Detection
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{    
+    [(TLWordListViewController *) self.window.rootViewController shakeDetected];
+}
+
+- (void)motionEnded:(UIEventSubtype)motion
+          withEvent:(UIEvent *)event
+{
+ 
+    // This is a motion/shake event
+    if (event.type == UIEventTypeMotion &&
+        event.subtype == UIEventSubtypeMotionShake)
+    {
+        // do stuff here since shake was detected
+    }
 }
 
 @end
